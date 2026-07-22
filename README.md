@@ -29,4 +29,4 @@ Locating and **causally validating** the induction circuit in a small transforme
 Replaces the weak *"Interpretability (growing focus)"* line with a real entry:
 > **Mechanistic Interpretability — Induction Circuits in GPT-2.** Located induction heads via induction-score analysis, visualised the attention pattern, and confirmed the circuit causally by ablation; traced the previous-token → induction-head composition. `transformer_lens`, public repo + write-up.
 
-Status: 🚧 in progress.
+Status: ✅ analysis complete — all 5 steps in [`induction_heads_kaggle.ipynb`](induction_heads_kaggle.ipynb): top induction head **5.5**, previous-token head **4.11**, causal ablation (2nd-copy loss +0.40) and K-composition (5.5 induction score 0.92→0.69 when 4.11 is ablated) both confirmed.
