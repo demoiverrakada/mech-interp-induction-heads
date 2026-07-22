@@ -1,0 +1,8 @@
+torch>=2.2.0
+transformer_lens>=2.0.0
+circuitsvis>=1.43.0
+einops>=0.7.0
+jaxtyping>=0.2.0
+datasets>=2.19.0
+matplotlib>=3.8.0
+numpy
